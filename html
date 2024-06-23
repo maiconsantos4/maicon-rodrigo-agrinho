@@ -2,8 +2,7 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<meta name="Agrotroca"
-content="width=device-width,initial-scale=1.0">
+<meta name="Agrotroca"content="width=device-width,initial-scale=1.0">
 <title>Pagina <Inicial-Agrotroca</title>
 <link rel="strylesheet" href="styles.css">
 </head>
@@ -19,4 +18,73 @@ content="width=device-width,initial-scale=1.0">
     </nav>
   </header>
   <main>
-            
+    <h2>Bem-vindo ao mercado dos fazendeiros!</h2>
+    <p>Aqui voce pode comprar e vender produtos frescos diretamente dos fazendeiros.</p>
+  </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="Agrotroca" content="width=device-width, initial-scale=1.0">
+  <title>listar Produtos-Mercados Dos Fazendeiros</title>
+<link rel="strylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Mercado dos fazendeiros</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">inicio</a></li>
+        <li><a href="list.html">listar produtos</a></li>
+        <li><a href="add.html">Adicionar Produto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="product-list">
+      <h2>Produto a venda</h2>
+      <ul id="products">
+        <!--Os Produtos Serão listados aqui-->
+      </ul>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="Agrotroca" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Produto-mercado dos fazendeiros</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Mercado dos fazendeiros</h1>
+      <nav>
+        <ul>
+<li><a href="index.html">inicio</a></li>
+<li><a href="list.html">Listar Produtos</a></li>
+<li><a href="add.html">Adicionar Produto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+   <section id="add-product">
+    <h2>Adicionar novo produto</h2>
+    <form id="product-form">
+     <label for="name">nome do produto:</label>
+     <input type="text" id="name" name="name required>
+<input type="number" id="price" name="price" required>
+<label for="quntity">quantidade:</label>
+<input type="number" id="quantity" name="quantity" required>
+<button type="submit">Adicionar</button>
+    </form>
+   </section>
+    </main>
+    <script src="scripts.js"></script>
+  </body>
+</html>
